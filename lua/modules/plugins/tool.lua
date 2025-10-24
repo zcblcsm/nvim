@@ -81,6 +81,7 @@ tool["nvim-telescope/telescope.nvim"] = {
 	config = require("tool.telescope"),
 	dependencies = {
 		{ "nvim-lua/plenary.nvim" },
+		{ "BurntSushi/ripgrep" },
 		{ "nvim-tree/nvim-web-devicons" },
 		{ "jvgrootveld/telescope-zoxide" },
 		{ "debugloop/telescope-undo.nvim" },
